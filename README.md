@@ -79,6 +79,7 @@ To use a different English layout, change the `layout` value in `settings.ini`.
 
 - **Toggle Switching** – enable/disable automatic switching  
 - **Reload Settings** – re-read `settings.ini` without restart  
+- **Edit Settings** – open `settings.ini` in your default editor  
 - **Exit** – quit the app (separated with a line)
 
 ---
