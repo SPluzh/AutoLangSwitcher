@@ -6,7 +6,9 @@ Persistent
 TrayMenu := A_TrayMenu
 TrayMenu.Delete()
 TrayMenu.Add("Pause Switching", (*) => Pause(-1))
+TrayMenu.Add()  ; ← Separator
 TrayMenu.Add("Reload Settings", (*) => LoadSettings())  ; Reload config
+TrayMenu.Add("Edit Settings", (*) => EditSettings())    ; Open ini file
 TrayMenu.Add()  ; ← Separator
 TrayMenu.Add("Exit", (*) => ExitApp())
 
@@ -29,6 +31,11 @@ LoadSettings() {
     layoutHKL     := IniRead(iniFile, "Settings", "layout", "04090409") ; en-US
     timerInterval := IniRead(iniFile, "Settings", "interval_ms", "500")
     appList       := StrSplit(appListRaw, ",", " `t")
+}
+
+EditSettings() {
+    global iniFile
+    Run(iniFile)
 }
 
 CheckTargetApps() {
