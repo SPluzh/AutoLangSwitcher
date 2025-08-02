@@ -2,6 +2,8 @@
 
 **AutoLangSwitcher** automatically switches the **keyboard layout to English** when specific applications are active — especially useful for digital content creation (DCC) tools like **Blender, Maya, Cinema 4D, Houdini, RizomUV, Nuke**, and more.
 
+https://github.com/user-attachments/assets/39a57cb5-3f00-4a65-8fc2-1a7ff43dc6ed
+
 ---
 
 ## ✅ Features
