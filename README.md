@@ -40,7 +40,7 @@
 
 ```ini
 [Settings]
-apps=blender.exe,c4d.exe,maya.exe,houdini.exe,RizomUV.exe,nuke.exe
+apps=maya.exe, blender.exe, cinema4d.exe, rizomuv.exe
 layout=0x4090409
 interval_ms=500
 ```
@@ -71,6 +71,24 @@ To use a different English layout, change the `layout` value in `settings.ini`.
 - **Toggle Switching** – enable/disable automatic switching  
 - **Reload Settings** – re-read `settings.ini` without restart  
 - **Exit** – quit the app (separated with a line)
+
+---
+
+## Working from Source (AutoHotkey v2)
+
+If you'd like to use or modify the source script (`AutoLangSwitcher.ahk`), follow these steps:
+
+1. Install [AutoHotkey v2](https://www.autohotkey.com/download).
+2. Clone or download this repo.
+3. Make sure the `data/` folder is next to the script:
+   ```
+   AutoLangSwitcher.ahk
+   └── data/
+       ├── keyboard.ico
+       ├── ok.ico
+       └── settings.ini
+   ```
+4. Run `AutoLangSwitcher.ahk` by double-clicking it or using a code editor.
 
 ---
 
