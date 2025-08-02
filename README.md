@@ -12,7 +12,12 @@ https://github.com/user-attachments/assets/39a57cb5-3f00-4a65-8fc2-1a7ff43dc6ed
 - Shows tray icon:  
   - ⌨️ **Keyboard icon** — switching inactive  
   - ✅ **OK icon** — switching active and layout is set
-  - ⏸️ **Paused** — switching temporarily disabled 
+  - ⏸️ **Paused** — switching temporarily disabled
+- Tray menu:
+  - ⏸ Pause Switching
+  - 🔄 Reload Settings
+  - 🛠 Edit Settings
+  - ❌ Exit
 - Customizable via `settings.ini`  
 - Reload config without restart  
 - Runs in background, lightweight, unobtrusive
