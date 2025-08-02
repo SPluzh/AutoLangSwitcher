@@ -8,8 +8,9 @@
 
 - Automatically switches to **English (US)** layout for selected DCC apps  
 - Shows tray icon:  
-  - 🖱️ *Keyboard icon* — switching inactive  
-  - ✅ *OK icon* — English layout active  
+  - ⌨️ **Keyboard icon** — switching inactive  
+  - ✅ **OK icon** — switching active and layout is set
+  - ⏸️ **Paused** — switching temporarily disabled 
 - Customizable via `settings.ini`  
 - Reload config without restart  
 - Runs in background, lightweight, unobtrusive
