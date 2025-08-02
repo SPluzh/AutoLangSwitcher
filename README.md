@@ -45,7 +45,7 @@ https://github.com/user-attachments/assets/39a57cb5-3f00-4a65-8fc2-1a7ff43dc6ed
 
 ## ⚙️ Configuration (`data/settings.ini`)
 
-https://github.com/user-attachments/assets/6dbe7aec-2469-4441-9733-73f0ad224680
+https://github.com/user-attachments/assets/fb4f842b-6684-4624-af7f-f330508f339e
 
 ```ini
 [Settings]
